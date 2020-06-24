@@ -1,0 +1,86 @@
+{
+  "name": "play",
+  "permissions": "NONE",
+  "restriction": "0",
+  "_id": "qjQlG",
+  "actions": [
+    {
+      "info": "1",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "checkyoutubeplay",
+      "name": "Store Command Params"
+    },
+    {
+      "storage": "1",
+      "varName": "checkyoutubeplay",
+      "comparison": "5",
+      "value": "https://www.youtube.com/watch?v=",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "9",
+      "name": "Check Variable"
+    },
+    {
+      "info": "0",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "songChoice",
+      "name": "Store Command Params"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "url": "${tempVars(\"songChoice\")}",
+      "seek": "0",
+      "volume": "",
+      "passes": "1",
+      "bitrate": "",
+      "type": "0",
+      "name": "Play YouTube Video"
+    },
+    {
+      "storage": "2",
+      "varName": "Music Queue",
+      "addType": "0",
+      "position": "",
+      "value": "tempVars(\"songChoice\")",
+      "name": "Add Item to List"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Now playing on the Team Thunder Music Broadcast:\n${tempVars(\"songChoice\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "storage": "2",
+      "varName": "Music Queue",
+      "removeType": "0",
+      "position": "",
+      "storage2": "0",
+      "varName2": "",
+      "name": "Remove Item from List"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "You did not include a YouTube video URL to be played!",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ]
+}
