@@ -1,0 +1,40 @@
+{
+  "name": "skip",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "oyKrP",
+  "actions": [
+    {
+      "storage": "2",
+      "varName": "Music Queue",
+      "removeType": "1",
+      "position": "",
+      "storage2": "0",
+      "varName2": "",
+      "name": "Remove Item from List"
+    },
+    {
+      "list": "8",
+      "varName": "Music Queue",
+      "getType": "0",
+      "position": "",
+      "storage": "1",
+      "varName2": "NewVideo",
+      "name": "Get Item from List"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "url": "${tempVars(\"NewVideo\")}",
+      "seek": "0",
+      "volume": "",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play YouTube Video"
+    }
+  ]
+}
