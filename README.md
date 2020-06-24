@@ -14,6 +14,9 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 [prefix]disconnect
 - Bot leaves the command author's voice channel.
 
+[prefix]]queue
+- Displays current music queue.
+
 [prefix]skip
 - Automatically plays the first video in the queue before deleting it.
 
