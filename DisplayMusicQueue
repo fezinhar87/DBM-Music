@@ -1,0 +1,26 @@
+{
+  "name": "queue",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "wJyci",
+  "actions": [
+    {
+      "list": "8",
+      "varName": "Music Queue",
+      "start": "",
+      "middle": "",
+      "end": "\\n",
+      "storage": "1",
+      "varName2": "musicQueue",
+      "name": "Convert List to Text"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "${tempVars(\"musicQueue\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
