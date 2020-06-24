@@ -1,0 +1,53 @@
+{
+  "name": "addtoqueue",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "PTYSM",
+  "actions": [
+    {
+      "info": "0",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "NewVidForQueue",
+      "name": "Store Command Params"
+    },
+    {
+      "storage": "1",
+      "varName": "NewVidForQueue",
+      "comparison": "5",
+      "value": "https://www.youtube.com/watch?v=",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "6",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "2",
+      "varName": "Music Queue",
+      "addType": "0",
+      "position": "",
+      "value": "tempVars(\"NewVidForQueue\")",
+      "name": "Add Item to List"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Successfully added to queue!",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "That's not a valid YouTube video!",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
