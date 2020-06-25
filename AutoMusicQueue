@@ -1,0 +1,72 @@
+{
+  "name": "AutoMusicQueue",
+  "temp": "",
+  "event-type": "0",
+  "_id": "qvZbq",
+  "actions": [
+    {
+      "server": "0",
+      "varName": "",
+      "dataName": "AutoMusicQueue",
+      "comparison": "2",
+      "value": "on",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "6",
+      "name": "Check Server Data"
+    },
+    {
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "6",
+      "name": "Check is Bot in Voice Channel"
+    },
+    {
+      "list": "8",
+      "varName": "Music Queue",
+      "getType": "0",
+      "position": "",
+      "storage": "1",
+      "varName2": "AutoVideo",
+      "name": "Get Item from List"
+    },
+    {
+      "channel": "4",
+      "varName": "",
+      "message": "Now Playing: \n${tempVars(\"AutoVideo\")}",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "url": "${tempVars(\"AutoVideo\")}",
+      "seek": "0",
+      "volume": "",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play YouTube Video"
+    },
+    {
+      "call": "1",
+      "name": "Jump to Action"
+    },
+    {
+      "channel": "4",
+      "varName": "",
+      "message": "I'm not in a voice channel!\nPlease play a video using `t!play (URL)` to put me in your voice channel!",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ]
+}
