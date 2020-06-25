@@ -27,4 +27,4 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 
 **Recent Updates:**
 - Fixed [prefix]skip command
-- Released rawdata 
+- Improved [prefix]play command
