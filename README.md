@@ -3,8 +3,9 @@ This is a DBM Music Bot with a queue (Still in testing phase, fixing bugs and ad
 
 Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 
-# Note
+# Notes
 - CreateMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
+- AutoMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
 
 # How To Use
 
@@ -26,6 +27,9 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 [prefix]clearqueue
 - Clears the music queue.
 
+[prefix]automusicqueue (On/Off)
+- Toggles the automatic video playing.
+
 # How To Download
 - Copy the raw data from each file.
 - Launch DBM.
@@ -37,3 +41,4 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 - Improved [prefix]play command
 - Added [prefix]clearqueue command
 - Improved [prefix]skip command
+- Added the AutoMusicQueue command
