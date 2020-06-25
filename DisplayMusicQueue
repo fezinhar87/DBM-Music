@@ -19,7 +19,7 @@
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "2",
-      "iffalseVal": "6",
+      "iffalseVal": "8",
       "name": "Check Variable"
     },
     {
@@ -33,12 +33,44 @@
       "name": "Convert List to Text"
     },
     {
-      "channel": "0",
-      "varName": "",
+      "title": "Music Queue",
+      "author": "",
+      "color": "",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "MusicQueue",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "MusicQueue",
       "message": "${tempVars(\"musicQueue\")}",
-      "storage": "0",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "MusicQueue",
+      "channel": "0",
       "varName2": "",
-      "name": "Send Message"
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
     },
     {
       "name": "End Action Sequence"
