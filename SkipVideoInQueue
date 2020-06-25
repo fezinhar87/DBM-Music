@@ -5,6 +5,13 @@
   "_id": "oyKrP",
   "actions": [
     {
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "9",
+      "name": "Check is Bot in Voice Channel"
+    },
+    {
       "storage": "2",
       "varName": "Music Queue",
       "removeType": "1",
@@ -22,11 +29,6 @@
       "name": "Add Reaction"
     },
     {
-      "channel": "0",
-      "varName": "",
-      "name": "Join Voice Channel"
-    },
-    {
       "url": "${tempVars(\"tobeplayed\")}",
       "seek": "0",
       "volume": "",
@@ -34,20 +36,6 @@
       "bitrate": "",
       "type": "1",
       "name": "Play YouTube Video"
-    },
-    {
-      "video": "${tempVars(\"tobeplayed\")}",
-      "info": "2",
-      "storage": "1",
-      "varName": "YouTubeVideoName",
-      "name": "Store YouTube Info"
-    },
-    {
-      "video": "${tempVars(\"tobeplayed\")}",
-      "info": "1",
-      "storage": "1",
-      "varName": "ToBePlayedVideoURL",
-      "name": "Store YouTube Info"
     },
     {
       "title": "Now Playing",
@@ -68,18 +56,18 @@
       "minute": "",
       "second": "",
       "storage": "1",
-      "varName": "skipnowplaying",
+      "varName": "nowplaying2",
       "name": "Create Embed Message"
     },
     {
       "storage": "1",
-      "varName": "skipnowplaying",
-      "message": "${tempVars(\"YouTubeVideoName\")}\n${tempVars(\"ToBePlayedVideoURL\")}",
+      "varName": "nowplaying2",
+      "message": "${tempVars(\"tobeplayed\")}",
       "name": "Set Embed Description"
     },
     {
       "storage": "1",
-      "varName": "skipnowplaying",
+      "varName": "",
       "channel": "0",
       "varName2": "",
       "storage3": "0",
@@ -88,6 +76,18 @@
       "iffalseVal": "",
       "messageContent": "",
       "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "call": "2",
+      "name": "Jump to Action"
     }
   ]
 }
