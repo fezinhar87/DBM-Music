@@ -5,22 +5,14 @@
   "_id": "qjQlG",
   "actions": [
     {
-      "info": "1",
-      "infoIndex": "1",
-      "storage": "1",
-      "varName": "checkyoutubeplay",
-      "name": "Store Command Params"
-    },
-    {
-      "storage": "1",
-      "varName": "checkyoutubeplay",
-      "comparison": "5",
-      "value": "https://www.youtube.com/watch?v=",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
-      "iffalseVal": "9",
-      "name": "Check Variable"
+      "condition": "0",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "2",
+      "iftrueVal": "12",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Parameters"
     },
     {
       "info": "0",
@@ -28,6 +20,17 @@
       "storage": "1",
       "varName": "songChoice",
       "name": "Store Command Params"
+    },
+    {
+      "storage": "1",
+      "varName": "songChoice",
+      "comparison": "5",
+      "value": "https://www.youtube.com/watch?v=",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "9",
+      "name": "Check Variable"
     },
     {
       "channel": "0",
@@ -74,13 +77,25 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "You did not include a YouTube video URL to be played!",
+      "message": "That isn't a YouTube video URL!",
       "storage": "0",
       "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
       "name": "Send Message"
     },
     {
       "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Please provide a YouTube video to be played! \nCorrect Usage: `t!play [URL]`",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
     }
   ]
 }
