@@ -3,6 +3,9 @@ This is a DBM Music Bot with a queue (Still in testing phase, fixing bugs and ad
 
 Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 
+**NOTE**
+- CreateMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
+
 **How To Use**
 
 [prefix]play (URL)
