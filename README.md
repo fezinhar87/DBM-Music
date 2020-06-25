@@ -34,6 +34,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 **All raw data files are attached.**
 
 **Recent Updates:**
-- Fixed [prefix]skip command
 - Improved [prefix]play command
 - Added [prefix]clearqueue command
+- Improved [prefix]skip command
