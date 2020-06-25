@@ -5,14 +5,44 @@
   "_id": "DACBV",
   "actions": [
     {
-      "channel": "0",
-      "varName": "",
+      "title": "Clearing Music Queue",
+      "author": "",
+      "color": "",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "clearingmessage",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "clearingmessage",
       "message": "Clearing music queue...please wait a few moments.",
-      "storage": "0",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "clearingmessage",
+      "channel": "0",
       "varName2": "",
+      "storage3": "0",
+      "varName3": "",
       "iffalse": "0",
       "iffalseVal": "",
-      "name": "Send Message"
+      "messageContent": "",
+      "name": "Send Embed Message"
     },
     {
       "filename": "bot.js",
