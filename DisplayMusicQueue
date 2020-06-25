@@ -7,6 +7,24 @@
     {
       "list": "8",
       "varName": "Music Queue",
+      "storage": "1",
+      "varName2": "queuelength",
+      "name": "Get List Length"
+    },
+    {
+      "storage": "1",
+      "varName": "queuelength",
+      "comparison": "4",
+      "value": "0",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "6",
+      "name": "Check Variable"
+    },
+    {
+      "list": "8",
+      "varName": "Music Queue",
       "start": "",
       "middle": "",
       "end": "\\n",
@@ -18,6 +36,17 @@
       "channel": "0",
       "varName": "",
       "message": "${tempVars(\"musicQueue\")}",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "There are no videos in the current music queue!",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"
