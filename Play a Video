@@ -19,13 +19,21 @@
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "2",
-      "iffalseVal": "12",
+      "iffalseVal": "10",
       "name": "Check Variable"
     },
     {
       "channel": "0",
       "varName": "",
       "name": "Join Voice Channel"
+    },
+    {
+      "storage": "2",
+      "varName": "Music Queue",
+      "addType": "0",
+      "position": "",
+      "value": "tempVars(\"songChoice\")",
+      "name": "Add Item to List"
     },
     {
       "url": "${tempVars(\"songChoice\")}",
@@ -35,21 +43,6 @@
       "bitrate": "",
       "type": "0",
       "name": "Play YouTube Video"
-    },
-    {
-      "video": "${tempVars(\"songChoice\")}",
-      "info": "2",
-      "storage": "1",
-      "varName": "VideoName",
-      "name": "Store YouTube Info"
-    },
-    {
-      "storage": "2",
-      "varName": "Music Queue",
-      "addType": "0",
-      "position": "",
-      "value": "tempVars(\"songChoice\")",
-      "name": "Add Item to List"
     },
     {
       "title": "Now Playing",
@@ -70,18 +63,18 @@
       "minute": "",
       "second": "",
       "storage": "1",
-      "varName": "NowPlaying",
+      "varName": "nowplaying",
       "name": "Create Embed Message"
     },
     {
       "storage": "1",
-      "varName": "NowPlaying",
-      "message": "${tempVars(\"VideoName\")}\n${tempVars(\"songChoice\")}",
+      "varName": "nowplaying",
+      "message": "${tempVars(\"songChoice\")}",
       "name": "Set Embed Description"
     },
     {
       "storage": "1",
-      "varName": "NowPlaying",
+      "varName": "nowplaying",
       "channel": "0",
       "varName2": "",
       "storage3": "0",
@@ -90,15 +83,6 @@
       "iffalseVal": "",
       "messageContent": "",
       "name": "Send Embed Message"
-    },
-    {
-      "storage": "2",
-      "varName": "Music Queue",
-      "removeType": "0",
-      "position": "",
-      "storage2": "0",
-      "varName2": "",
-      "name": "Remove Item from List"
     },
     {
       "name": "End Action Sequence"
