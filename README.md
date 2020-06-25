@@ -21,7 +21,7 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 - Displays current music queue.
 
 [prefix]skip
-- Automatically plays the first video in the queue before deleting it.
+- Automatically plays the first video in the queue, then removes it from the queue.
 
 **All files are attached in this GitHub.**
 
