@@ -26,7 +26,12 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 [prefix]clearqueue
 - Clears the music queue.
 
-# All files are attached.
+# How To Download
+- Copy the raw data from each file.
+- Launch DBM.
+- Paste the raw data in its locations.
+
+**All raw data files are attached.**
 
 **Recent Updates:**
 - Fixed [prefix]skip command
