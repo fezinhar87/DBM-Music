@@ -14,6 +14,14 @@
       "name": "Remove Item from List"
     },
     {
+      "storage": "0",
+      "varName": "",
+      "emoji": "4",
+      "varName2": "👌",
+      "varName3": "",
+      "name": "Add Reaction"
+    },
+    {
       "channel": "0",
       "varName": "",
       "name": "Join Voice Channel"
