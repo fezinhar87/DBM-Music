@@ -14,20 +14,6 @@
       "name": "Remove Item from List"
     },
     {
-      "video": "${tempVars(\"tobeplayed\")}",
-      "info": "2",
-      "storage": "1",
-      "varName": "videotobeplayed.title",
-      "name": "Store YouTube Info"
-    },
-    {
-      "video": "${tempVars(\"tobeplayed\")}",
-      "info": "1",
-      "storage": "1",
-      "varName": "videotobeplayed.url",
-      "name": "Store YouTube Info"
-    },
-    {
       "storage": "0",
       "varName": "",
       "emoji": "4",
@@ -50,6 +36,20 @@
       "name": "Play YouTube Video"
     },
     {
+      "video": "${tempVars(\"tobeplayed\")}",
+      "info": "2",
+      "storage": "1",
+      "varName": "YouTubeVideoName",
+      "name": "Store YouTube Info"
+    },
+    {
+      "video": "${tempVars(\"tobeplayed\")}",
+      "info": "1",
+      "storage": "1",
+      "varName": "ToBePlayedVideoURL",
+      "name": "Store YouTube Info"
+    },
+    {
       "title": "Now Playing",
       "author": "",
       "color": "",
@@ -68,18 +68,18 @@
       "minute": "",
       "second": "",
       "storage": "1",
-      "varName": "Now.Playing",
+      "varName": "skipnowplaying",
       "name": "Create Embed Message"
     },
     {
       "storage": "1",
-      "varName": "Now.Playing",
-      "message": "${tempVars(\"videotobeplayed.title\")}\n${tempVars(\"videotobeplayed.url\")}",
+      "varName": "skipnowplaying",
+      "message": "${tempVars(\"YouTubeVideoName\")}\n${tempVars(\"ToBePlayedVideoURL\")}",
       "name": "Set Embed Description"
     },
     {
       "storage": "1",
-      "varName": "Now.Playing",
+      "varName": "skipnowplaying",
       "channel": "0",
       "varName2": "",
       "storage3": "0",
