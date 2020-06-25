@@ -9,18 +9,9 @@
       "varName": "Music Queue",
       "removeType": "1",
       "position": "",
-      "storage2": "0",
-      "varName2": "",
+      "storage2": "1",
+      "varName2": "tobeplayed",
       "name": "Remove Item from List"
-    },
-    {
-      "list": "8",
-      "varName": "Music Queue",
-      "getType": "0",
-      "position": "",
-      "storage": "1",
-      "varName2": "NewVideo",
-      "name": "Get Item from List"
     },
     {
       "channel": "0",
@@ -28,7 +19,7 @@
       "name": "Join Voice Channel"
     },
     {
-      "url": "${tempVars(\"NewVideo\")}",
+      "url": "${tempVars(\"tobeplayed\")}",
       "seek": "0",
       "volume": "",
       "passes": "1",
