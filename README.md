@@ -38,7 +38,5 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 **All raw data files are attached.**
 
 **Recent Updates:**
-- Improved [prefix]play command
-- Added [prefix]clearqueue command
-- Improved [prefix]skip command
-- Added the AutoMusicQueue command
+- Added an automatic music queue emptying system.
+- Fixed and improved entire music system.
