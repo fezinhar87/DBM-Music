@@ -5,7 +5,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 
 # Notes
 - CreateMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
-- AutoMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
 
 # How To Use
 
@@ -27,9 +26,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 [prefix]clearqueue
 - Clears the music queue.
 
-[prefix]automusicqueue (On/Off)
-- Toggles the automatic video playing.
-
 # How To Download
 - Copy the raw data from each file.
 - Launch DBM.
@@ -38,5 +34,5 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 **All raw data files are attached.**
 
 **Recent Updates:**
-- Added an automatic music queue emptying system.
-- Fixed and improved entire music system.
+- Entire music system is now fully functional. 
+- Last Updated: July 1st, 2020
