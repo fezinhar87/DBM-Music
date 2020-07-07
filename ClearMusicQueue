@@ -45,8 +45,37 @@
       "name": "Send Embed Message"
     },
     {
-      "filename": "bot.js",
-      "name": "Restart Bot"
+      "list": "8",
+      "varName": "Music Queue",
+      "storage": "1",
+      "varName2": "toberemoved",
+      "name": "Get List Length"
+    },
+    {
+      "storage": "2",
+      "varName": "Music Queue",
+      "removeType": "0",
+      "position": "",
+      "storage2": "1",
+      "varName2": "remove",
+      "name": "Remove Item from List"
+    },
+    {
+      "storage": "1",
+      "varName": "",
+      "girdi": "${tempVars(\"remove\")}",
+      "xtimes": "${tempVars(\"toberemoved\")}",
+      "name": "Repeat String"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Cleared.",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
     }
   ]
 }
