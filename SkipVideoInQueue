@@ -40,7 +40,7 @@
     {
       "title": "Now Playing",
       "author": "",
-      "color": "",
+      "color": "#008000",
       "url": "",
       "authorIcon": "",
       "authorUrl": "",
@@ -67,7 +67,7 @@
     },
     {
       "storage": "1",
-      "varName": "",
+      "varName": "nowplaying2",
       "channel": "0",
       "varName2": "",
       "storage3": "0",
