@@ -34,6 +34,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#5110 on Discord!
 **All raw data files are attached.**
 
 **Recent Updates:**
-- Updated the `play` command.
-- Remastered `clearqueue` command.
-- Last Updated: July 7th, 2020.
+- Updated entire music system.
+
+**Last Updated: July 17th, 2020**
