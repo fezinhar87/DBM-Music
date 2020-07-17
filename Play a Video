@@ -26,7 +26,7 @@
       "storage": "1",
       "varName": "songChoice",
       "comparison": "5",
-      "value": "https://www.youtube.com/watch?v=",
+      "value": "'https://www.youtube.com/watch'",
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "2",
