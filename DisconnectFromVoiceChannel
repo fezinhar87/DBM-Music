@@ -17,9 +17,11 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "Successfully disconnected! You just ended my life. Thanks, mate.",
+      "message": "Successfully disconnected!",
       "storage": "0",
       "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
       "name": "Send Message"
     },
     {
@@ -28,9 +30,11 @@
     {
       "channel": "0",
       "varName": "",
-      "message": "I'm not in a voice channel! GOTTEM",
+      "message": "I'm not in a voice channel! ",
       "storage": "0",
       "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
       "name": "Send Message"
     }
   ]
