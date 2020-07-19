@@ -40,8 +40,8 @@
       "varName": "songChoice",
       "comparison": "5",
       "value": "'https://www.youtube.com/watch'",
-      "iftrue": "3",
-      "iftrueVal": "2",
+      "iftrue": "2",
+      "iftrueVal": "8",
       "iffalse": "0",
       "iffalseVal": "11",
       "name": "Check Variable"
