@@ -124,6 +124,15 @@
     {
       "storage": "2",
       "varName": "Queue",
+      "removeType": "0",
+      "position": "",
+      "storage2": "0",
+      "varName2": "",
+      "name": "Remove Item from List"
+    },
+    {
+      "storage": "2",
+      "varName": "Queue",
       "name": "Save Variable"
     }
   ],
