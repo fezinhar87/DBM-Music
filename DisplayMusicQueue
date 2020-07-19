@@ -24,12 +24,13 @@
     },
     {
       "list": "8",
-      "varName": "Music Queue",
+      "varName": "Queue",
       "start": "",
       "middle": "",
       "end": "\\n",
       "storage": "1",
       "varName2": "musicQueue",
+      "sort": "1",
       "name": "Convert List to Text"
     },
     {
