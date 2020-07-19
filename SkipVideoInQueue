@@ -5,20 +5,38 @@
   "_id": "oyKrP",
   "actions": [
     {
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
       "iffalseVal": "9",
       "name": "Check is Bot in Voice Channel"
     },
     {
+      "channel": "0",
+      "varName": "",
+      "message": "I'm not in a voice channel!",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
       "storage": "2",
-      "varName": "Music Queue",
+      "varName": "Queue",
       "removeType": "1",
       "position": "",
       "storage2": "1",
       "varName2": "tobeplayed",
       "name": "Remove Item from List"
+    },
+    {
+      "storage": "2",
+      "varName": "Queue",
+      "name": "Save Variable"
     },
     {
       "storage": "0",
@@ -76,18 +94,6 @@
       "iffalseVal": "",
       "messageContent": "",
       "name": "Send Embed Message"
-    },
-    {
-      "name": "End Action Sequence"
-    },
-    {
-      "channel": "0",
-      "varName": "",
-      "name": "Join Voice Channel"
-    },
-    {
-      "call": "2",
-      "name": "Jump to Action"
     }
   ]
 }
