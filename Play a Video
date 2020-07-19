@@ -5,6 +5,30 @@
   "_id": "qjQlG",
   "actions": [
     {
+      "member": "1",
+      "varName": "",
+      "info": "4",
+      "varName2": "",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "13",
+      "name": "Check If Member"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "You're not in a voice channel!",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
       "info": "0",
       "infoIndex": "1",
       "storage": "1",
@@ -12,26 +36,28 @@
       "name": "Store Command Params"
     },
     {
-      "member": "1",
-      "varName": "",
-      "info": "4",
-      "varName2": "",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
-      "iffalseVal": "13",
-      "name": "Check If Member"
-    },
-    {
       "storage": "1",
       "varName": "songChoice",
       "comparison": "5",
       "value": "'https://www.youtube.com/watch'",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
       "iffalseVal": "11",
       "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "That isn't a YouTube video URL! / Please provide a YouTube video to be played!",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
     },
     {
       "channel": "0",
@@ -40,7 +66,7 @@
     },
     {
       "storage": "2",
-      "varName": "Music Queue",
+      "varName": "Queue",
       "addType": "0",
       "position": "",
       "value": "tempVars(\"songChoice\")",
@@ -96,30 +122,9 @@
       "name": "Send Embed Message"
     },
     {
-      "name": "End Action Sequence"
-    },
-    {
-      "channel": "0",
-      "varName": "",
-      "message": "That isn't a YouTube video URL! / Please provide a YouTube video to be played!",
-      "storage": "0",
-      "varName2": "",
-      "iffalse": "0",
-      "iffalseVal": "",
-      "name": "Send Message"
-    },
-    {
-      "name": "End Action Sequence"
-    },
-    {
-      "channel": "0",
-      "varName": "",
-      "message": "You're not in a voice channel!",
-      "storage": "0",
-      "varName2": "",
-      "iffalse": "0",
-      "iffalseVal": "",
-      "name": "Send Message"
+      "storage": "2",
+      "varName": "Queue",
+      "name": "Save Variable"
     }
   ],
   "comType": "0"
