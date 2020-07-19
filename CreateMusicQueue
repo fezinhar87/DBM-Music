@@ -6,7 +6,7 @@
   "actions": [
     {
       "storage": "2",
-      "varName": "Music Queue",
+      "varName": "Queue",
       "name": "Create List"
     }
   ]
