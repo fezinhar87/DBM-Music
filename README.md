@@ -6,6 +6,9 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 # Notes
 - CreateMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
 
+# Stop Scrolling!
+- I am reworking this music system.
+
 # How To Use
 
 [prefix]play (URL)
