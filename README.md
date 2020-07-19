@@ -35,7 +35,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 
 **Recent Updates:**
 - Updated entire music system.
-- Working on [prefix]clearqueue.
 - Reworked system, now compatible with Discord.js v12.
 
 **Last Updated: July 19th, 2020**
