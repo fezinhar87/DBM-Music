@@ -53,19 +53,8 @@
     },
     {
       "storage": "2",
-      "varName": "Music Queue",
-      "removeType": "0",
-      "position": "",
-      "storage2": "1",
-      "varName2": "remove",
-      "name": "Remove Item from List"
-    },
-    {
-      "storage": "1",
-      "varName": "",
-      "girdi": "${tempVars(\"remove\")}",
-      "xtimes": "${tempVars(\"toberemoved\")}",
-      "name": "Repeat String"
+      "varName": "Queue",
+      "name": "Create List"
     },
     {
       "channel": "0",
