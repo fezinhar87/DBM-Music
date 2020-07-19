@@ -23,15 +23,15 @@
       "name": "Check Variable"
     },
     {
-      "name": "End Action Sequence"
-    },
-    {
       "channel": "0",
       "varName": "",
       "message": "That's not a valid YouTube video!",
       "storage": "0",
       "varName2": "",
       "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
     },
     {
       "storage": "2",
