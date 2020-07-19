@@ -6,9 +6,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 # Notes
 - CreateMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
 
-# Stop Scrolling!
-- I am reworking this music system.
-
 # How To Use
 
 [prefix]play (URL)
@@ -38,5 +35,7 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 
 **Recent Updates:**
 - Updated entire music system.
+- Working on [prefix]clearqueue.
+- Reworked system, now compatible with Discord.js v12.
 
-**Last Updated: July 17th, 2020**
+**Last Updated: July 19th, 2020**
