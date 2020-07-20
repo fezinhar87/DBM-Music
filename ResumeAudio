@@ -1,0 +1,53 @@
+{
+  "name": "resume",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "irAbK",
+  "actions": [
+    {
+      "action": "2",
+      "name": "Control Audio"
+    },
+    {
+      "title": "Video Resumed",
+      "author": "",
+      "color": "08A1FF",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "videoresumed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "videoresumed",
+      "message": "Video resumed.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "videoresumed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "0"
+}
