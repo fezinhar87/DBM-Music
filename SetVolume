@@ -1,0 +1,65 @@
+{
+  "name": "setvolume",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "XmgFZ",
+  "actions": [
+    {
+      "info": "0",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "volume",
+      "name": "Store Command Params"
+    },
+    {
+      "volume": "${tempVars(\"volume\")}",
+      "name": "Set Audio Volume"
+    },
+    {
+      "title": "Volume Adjustment ",
+      "author": "",
+      "color": "08DDFF",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "msg",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "msg",
+      "message": "Volume set to: ${tempVars(\"volume\")}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "msg",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "customData": {
+    "Test Extension": {
+      "input1": 0,
+      "input2": 0
+    }
+  }
+}
