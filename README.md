@@ -17,6 +17,9 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 [prefix]disconnect
 - Bot leaves the command author's voice channel.
 
+[prefix]connect
+- Bot joins the command author's voice channel.
+
 [prefix]]queue
 - Displays current music queue.
 
@@ -25,6 +28,12 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 
 [prefix]clearqueue
 - Clears the music queue.
+
+[prefix]resume
+- Resume audio. 
+
+[prefix]pause
+- Pause audio.
 
 # How To Download
 - Copy the raw data from each file.
