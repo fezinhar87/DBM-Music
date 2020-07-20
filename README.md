@@ -43,7 +43,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
 **All raw data files are attached.**
 
 **Recent Updates:**
-- Updated entire music system.
-- Reworked system, now compatible with Discord.js v12.
+- Added [prefix]pause, resume and connect.
 
-**Last Updated: July 19th, 2020**
+**Last Updated: July 20th, 2020**
