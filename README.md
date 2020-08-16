@@ -1,7 +1,7 @@
 # Music Bot With Queue
 This is a DBM Music Bot with a queue (Still in testing phase, fixing bugs and adding new features).
 
-Any problems or questions? Make sure to DM TheRealPikachu#0001 on Discord!
+Any problems or questions? Make sure to DM TheRealPikachu#6676 on Discord!
 
 # Notes
 - CreateMusicQueue is an EVENT! Do not import it into the Commands tab, the system will NOT work!
