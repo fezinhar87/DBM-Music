@@ -6,7 +6,7 @@
   "actions": [
     {
       "list": "8",
-      "varName": "Music Queue",
+      "varName": "Queue",
       "storage": "1",
       "varName2": "queuelength",
       "name": "Get List Length"
