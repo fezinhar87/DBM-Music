@@ -44,5 +44,6 @@ Any problems or questions? Make sure to DM TheRealPikachu#6676 on Discord!
 
 **Recent Updates:**
 - Added [prefix]pause, resume and connect.
+- Converted entire system into Discord.JS v12
 
-**Last Updated: July 20th, 2020**
+**Last Updated: August 17th, 2020**
