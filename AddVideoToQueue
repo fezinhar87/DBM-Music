@@ -15,9 +15,9 @@
       "storage": "1",
       "varName": "NewVidForQueue",
       "comparison": "5",
-      "value": "https://www.youtube.com/watch?v=",
+      "value": "\"https://www.youtube.com/watch?v=\"",
       "iftrue": "2",
-      "iftrueVal": "4",
+      "iftrueVal": "5",
       "iffalse": "0",
       "iffalseVal": "6",
       "name": "Check Variable"
